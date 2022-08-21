@@ -1,0 +1,17 @@
+.mainContainer {
+
+    display: grid;
+    grid-template: 500px 500px / 200px auto;
+    background-color: lightblue; 
+
+}
+
+.sideBar {
+
+    border: 12px solid red;
+}
+
+.contentArea {
+
+    border: 12px solid red;
+}
