@@ -2,16 +2,40 @@
 
     display: grid;
     grid-template: 500px 500px / 200px auto;
-    background-color: lightblue; 
+    background-color: lightblue;
 
 }
 
 .sideBar {
 
     border: 12px solid red;
+    height: 976px;
 }
 
 .contentArea {
 
     border: 12px solid red;
+    height: 976px;
+}
+
+.dashboardItems1 {
+
+    height: 50px;
+    border: 12px solid blue;
+}
+
+.dashboardItems2 {
+
+
+    height: 150px;
+    border: 12px solid blue;
+
+
+}
+
+.dashboardItems3 {
+
+    height: 200px;
+    border: 12px solid blue;
+
 }
