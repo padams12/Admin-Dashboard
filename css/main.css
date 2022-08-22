@@ -45,3 +45,16 @@
     height: 200px;
 
 }
+
+h3 {
+
+    padding: 20px;
+}
+
+.posts {
+
+
+    display: grid;
+    grid-template: 500px 500px / 200px auto;
+    background-color: rgb(90, 101, 104);
+}
