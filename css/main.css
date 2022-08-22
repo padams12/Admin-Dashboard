@@ -59,8 +59,54 @@ h3 {
     background-color: rgb(90, 101, 104);
 }
 
-.post2,
-.post4,
+.post1 {
+
+    height: 90px;
+    width: auto;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.post2 {
+
+    height: 90px;
+    width: auto;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+
+.post3 {
+
+    height: 90px;
+    width: auto;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.post4 {
+
+    height: 90px;
+    width: auto;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.post5 {
+
+    height: 90px;
+    width: auto;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 6;
+
+}
+
+
 .post6
  {
 
@@ -68,17 +114,8 @@ h3 {
     width: auto;
     grid-column-start: 5;
     grid-column-end: 5;
-}
-
-.post1,
-.post3,
-.post5 {
-
-    height: 90px;
-    width: auto;
-    grid-column-start: 1;
-    grid-column-end: 4;
-
+    grid-row-start: 12;
+    grid-row-end: 12;
 }
 
 .post7 {
@@ -119,4 +156,18 @@ h3 {
     height: auto;
     border-radius: 5px;
 
+}
+
+.userContent {
+
+    border: 12px solid red;
+    height: 925px;
+}
+
+.starIcon,
+.eyeIcon,
+.shareIcon {
+
+    padding: 8px;
+    
 }
