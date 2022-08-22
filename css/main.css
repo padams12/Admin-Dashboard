@@ -1,6 +1,8 @@
 * {
 
     font-family: 'Roboto', sans-serif; /*Use Google font for all elements. */
+    color: rgb(34, 33, 33);
+    font-weight: 200;
 
 }
 
@@ -8,7 +10,7 @@
 
     display: grid;
     grid-template: 500px 500px / 200px auto;
-    background-color: lightblue;
+    background-color: rgb(90, 101, 104);
 
 }
 
@@ -16,13 +18,12 @@
 
 .sideBar {
 
-    height: 976px;
-    background-color: aqua;
+    height: 1000px;
+    background-color: rgb(25, 187, 241);
 }
 
 .contentArea {
 
-    border: 12px solid red;
     height: 976px;
 }
 
