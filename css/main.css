@@ -1,3 +1,9 @@
+* {
+
+    font-family: 'Roboto', sans-serif; /*Use Google font for all elements. */
+
+}
+
 .mainContainer {
 
     display: grid;
@@ -6,10 +12,12 @@
 
 }
 
+
+
 .sideBar {
 
-    border: 12px solid red;
     height: 976px;
+    background-color: aqua;
 }
 
 .contentArea {
@@ -20,15 +28,14 @@
 
 .dashboardItems1 {
 
-    height: 50px;
-    border: 12px solid blue;
+    height: 75px;
+
 }
 
 .dashboardItems2 {
 
 
-    height: 150px;
-    border: 12px solid blue;
+    height: 200px;
 
 
 }
@@ -36,6 +43,5 @@
 .dashboardItems3 {
 
     height: 200px;
-    border: 12px solid blue;
 
 }
