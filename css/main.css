@@ -18,7 +18,7 @@
 .sideBar {
 
     height: 1000px;
-    background-color: rgb(25, 187, 241);
+    background-color: rgb(27, 198, 254);
 }
 
 .contentArea {
@@ -55,6 +55,54 @@ h3 {
 
 
     display: grid;
-    grid-template: 500px 500px / 200px auto;
+    grid-template: 75px 75px  / 75px 75px;
     background-color: rgb(90, 101, 104);
+}
+
+.post2,
+.post4,
+.post6
+ {
+
+    border: 12px solid yellowgreen;
+    height: 90px;
+    width: auto;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.post1,
+.post3,
+.post5 {
+
+    border: 12px solid yellowgreen;
+    height: 90px;
+    width: auto;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.post7 {
+
+    border: 12px solid yellowgreen;
+    height: 90px;
+    width: auto;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+
+
+}
+
+
+.post8 {
+
+    border: 12px solid yellowgreen;
+    height: 90px;
+    width: auto;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+
 }
