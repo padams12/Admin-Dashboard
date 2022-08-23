@@ -55,6 +55,7 @@ h3 {
 .posts {
 
     background-color: rgb(90, 101, 104);
+
 }
 
 .post0 {
@@ -185,6 +186,7 @@ h3 {
     gap: 30px;
     grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px;
     grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px;
+    background-color: rgb(90, 101, 104);
     
 }
 
