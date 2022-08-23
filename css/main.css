@@ -17,8 +17,9 @@
 
 .sideBar {
 
-    height: 1000px;
+    height: 1280px;
     background-color: rgb(27, 198, 254);
+
 }
 
 .contentArea {
@@ -56,20 +57,39 @@ h3 {
     background-color: rgb(90, 101, 104);
 }
 
-.postBox1 {
+.post0 {
 
+    height: 40px;
+    width: auto;
     grid-row-start: 1;
     grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
 
 
 }
 
-.postBox2 {
+.post1 {
 
-    grid-row-start: 4;
+    height: 150px;
+    width: auto;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+
+}
+
+.post2 {
+
+    height: 150px;
+    width: auto;
+    grid-row-start: 5;
     grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
 
- 
 }
 
 
@@ -144,12 +164,12 @@ h3 {
 
 .userContent {
 
-    height: 1000px;
-    border: 12px solid yellow;
+    height: 1200px;
     display: grid;
-    grid-template-columns: 75px 75px 75px;
-    grid-template-rows: 75px 75px;
-    gap: 32px;
+    gap: 40px;
+    grid-template-columns: 80px 80px 80px 80px 80pc 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px;
+    background-color: rgb(90, 101, 104);
     
 }
 
