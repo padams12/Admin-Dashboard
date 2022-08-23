@@ -142,7 +142,7 @@ h3 {
 .post7 {
 
     height: 90px;
-    width: 180px;
+    width: 190px;
     grid-row-start: 3;
     grid-row-end: 6;
     grid-column-start: 8;
@@ -155,8 +155,8 @@ h3 {
 
     height: 90px;
     width: 180px;
-    grid-row-start: 5;
-    grid-row-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 8;
     grid-column-start: 8;
     grid-column-end: 9;
 }
@@ -168,7 +168,8 @@ h3 {
 .postBox5,
 .postBox6,
 .postBox7,
-.postBox8 {
+.postBox8
+ {
 
 
     background-color: antiquewhite;
