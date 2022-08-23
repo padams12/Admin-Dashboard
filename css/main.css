@@ -53,56 +53,49 @@ h3 {
 
 .posts {
 
-
-    display: grid;
-    grid-template: 75px 75px  / 75px 75px;
     background-color: rgb(90, 101, 104);
 }
 
-.post1 {
+.postBox1 {
 
-    height: 90px;
-    width: auto;
-    grid-column-start: 1;
-    grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
+
+
 }
 
-.post2 {
+.postBox2 {
 
-    height: 90px;
-    width: auto;
-    grid-column-start: 5;
-    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 7;
+
+ 
 }
 
 
 .post3 {
 
     height: 90px;
-    width: auto;
-    grid-column-start: 1;
-    grid-column-end: 4;
+    width: 150px;
+
+
 
 }
 
 .post4 {
 
     height: 90px;
-    width: auto;
-    grid-column-start: 1;
-    grid-column-end: 4;
+    width: 150px;
+
+
 }
 
 .post5 {
 
     height: 90px;
-    width: auto;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 6;
-    grid-row-end: 6;
+    width: 150px;
+
+
 
 }
 
@@ -111,20 +104,16 @@ h3 {
  {
 
     height: 90px;
-    width: auto;
-    grid-column-start: 5;
-    grid-column-end: 5;
-    grid-row-start: 12;
-    grid-row-end: 12;
+    width: 150px;
+
+
 }
 
 .post7 {
 
     height: 90px;
-    width: auto;
-    grid-column-start: 7;
-    grid-column-end: 7;
-    grid-row-start: 1;
+    width: 150px;
+
 
 
 }
@@ -133,10 +122,7 @@ h3 {
 .post8 {
 
     height: 90px;
-    width: auto;
-    grid-column-start: 7;
-    grid-column-end: 7;
-    grid-row-start: 3;
+    width: 150px;
 
 }
 
@@ -152,16 +138,19 @@ h3 {
 
     background-color: antiquewhite;
     padding: 10px;
-    width: auto;
-    height: auto;
     border-radius: 5px;
 
 }
 
 .userContent {
 
-    border: 12px solid red;
-    height: 925px;
+    height: 1000px;
+    border: 12px solid yellow;
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    grid-template-rows: 75px 75px;
+    gap: 32px;
+    
 }
 
 .starIcon,
@@ -169,5 +158,5 @@ h3 {
 .shareIcon {
 
     padding: 8px;
-    
+
 }
